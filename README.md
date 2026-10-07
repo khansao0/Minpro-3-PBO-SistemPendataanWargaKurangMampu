@@ -159,9 +159,9 @@ tampilan saat sudah ditambah <br>
 2. Tampilkan Data Warga (Read):
 Menampilkan daftar semua warga yang ada di dalam ArrayList secara lengkap dengan atribut kategori, kriteria kemiskinan, serta status kelayakan bantuan otomatis dari interface. <br>
 
-<img width="481" alt="WhatsApp Image 2026-10-07 at 7 42 29 PM" src="https://github.com/user-attachments/assets/08600722-fc4a-4f25-9487-2fee44b41d98" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 42 29 PM" src="https://github.com/user-attachments/assets/08600722-fc4a-4f25-9487-2fee44b41d98" /> <br>
 
-<img width="505" alt="WhatsApp Image 2026-10-07 at 7 43 06 PM" src="https://github.com/user-attachments/assets/d6656d14-da57-4175-bb30-b2e3a3dd00d4" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 43 06 PM" src="https://github.com/user-attachments/assets/d6656d14-da57-4175-bb30-b2e3a3dd00d4" />
 
 
 3. Tampilkan Ringkasan Warga (Overloading):
@@ -174,24 +174,24 @@ Fitur ini memperlihatkan penerapan Polymorphism Method Overloading melalui peman
 5. Ubah Data Warga (Update):
 Pengguna memasukkan nomor data warga yang ingin diubah. Pembaruan data sistem hanya memperbarui nama, alamat, tanggungan, pendapatan, dan status rumah. Atribut umur, kondisi kesehatan, jenis disabilitas, dan kebutuhan alat bantu tidak ikut diperbarui agar data kategori awal tetap konsisten. Nanti ada pemberitahuan "Data warga berhasil diperbarui!" <br>
 
-<img width="442" alt="WhatsApp Image 2026-10-07 at 7 44 51 PM" src="https://github.com/user-attachments/assets/57df4e4b-8acc-4442-aa0c-b9e39654d8d1" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 44 51 PM" src="https://github.com/user-attachments/assets/57df4e4b-8acc-4442-aa0c-b9e39654d8d1" /> <br> 
 
-<img width="435" alt="WhatsApp Image 2026-10-07 at 7 46 36 PM" src="https://github.com/user-attachments/assets/52a13f48-ad77-4dd7-a368-f5270c4f7682" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 46 36 PM" src="https://github.com/user-attachments/assets/52a13f48-ad77-4dd7-a368-f5270c4f7682" /> <br>
 
 Tampilan setelah update <br>
-<img width="511" alt="WhatsApp Image 2026-10-07 at 7 47 22 PM" src="https://github.com/user-attachments/assets/abd38ffc-1d3b-4c3e-8b92-81dc4b352562" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 47 22 PM" src="https://github.com/user-attachments/assets/abd38ffc-1d3b-4c3e-8b92-81dc4b352562" /> <br>
 
 
 
 5. Hapus Data Warga (Delete):
 Untuk menghapus data warga dari daftar, masukkan nomor data yang mau dihapus. Sesuai revisi, sebelum data dihapus sistem meminta konfirmasi terlebih dahulu (apakah anda yakin ingin menghapus data ini? (y/n)). Jika diketik "y", data berhasil dihapus. <br>
 
-<img width="436" alt="WhatsApp Image 2026-10-07 at 7 48 12 PM" src="https://github.com/user-attachments/assets/62c95f30-ea6e-408e-bd49-d954fa44b49d" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 48 12 PM" src="https://github.com/user-attachments/assets/62c95f30-ea6e-408e-bd49-d954fa44b49d" /> <br>
 
-<img width="585" alt="WhatsApp Image 2026-10-07 at 7 48 43 PM" src="https://github.com/user-attachments/assets/49d7b499-5555-41eb-91d7-f4f17a442e47" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 48 43 PM" src="https://github.com/user-attachments/assets/49d7b499-5555-41eb-91d7-f4f17a442e47" />
 
 
 6. Keluar:
 menutup program, nanti ada output "Terima kasih telah menggunakan program ini!" <br>
 
-<img width="664" alt="WhatsApp Image 2026-10-07 at 7 50 03 PM" src="https://github.com/user-attachments/assets/3ab62263-ea84-445a-b762-8e311baaf27b" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 50 03 PM" src="https://github.com/user-attachments/assets/3ab62263-ea84-445a-b762-8e311baaf27b" />
