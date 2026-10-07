@@ -145,7 +145,7 @@ Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal 
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 38 15 PM" src="https://github.com/user-attachments/assets/8e3f1ae7-06c4-4cf7-8880-b47473eb8516" />
 
 
-1. Tambah Data Warga (Create):
+## 1. Tambah Data Warga (Create):
 Pada menu ini, pengecekan kategori warga (Lansia/Disabilitas) dilakukan di awal sebelum menginput data personal. Jika pilihan kategori salah, pendaftaran langsung dibatalkan. Menu ini juga dilengkapi fungsi validasi try-catch jika pengguna salah memasukkan tipe data (seperti menginput teks pada angka). Setelah berhasil diisi, nanti ada output "Yeyy Data Berhasil ditambahkan!" <br>
 
 <img width="528" alt="WhatsApp Image 2026-10-07 at 8 16 28 PM" src="https://github.com/user-attachments/assets/1e6abe79-47c7-444e-9abc-d7be6aa674d9" />
@@ -154,24 +154,27 @@ Pada menu ini, pengecekan kategori warga (Lansia/Disabilitas) dilakukan di awal 
 tampilan saat sudah ditambah <br>
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 41 23 PM" src="https://github.com/user-attachments/assets/40a60e4c-2ba4-4594-b204-216b85ebcdb4" />
 
+<br>
 
-
-2. Tampilkan Data Warga (Read):
+## 2. Tampilkan Data Warga (Read):
 Menampilkan daftar semua warga yang ada di dalam ArrayList secara lengkap dengan atribut kategori, kriteria kemiskinan, serta status kelayakan bantuan otomatis dari interface. <br>
 
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 42 29 PM" src="https://github.com/user-attachments/assets/08600722-fc4a-4f25-9487-2fee44b41d98" /> <br>
 
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 43 06 PM" src="https://github.com/user-attachments/assets/d6656d14-da57-4175-bb30-b2e3a3dd00d4" />
 
+<br>
 
-3. Tampilkan Ringkasan Warga (Overloading):
+## 3. Tampilkan Ringkasan Warga (Overloading):
 Menampilkan bentuk ringkas dari daftar warga menggunakan konsep method overloading tampilkanInfo(true). Tampilan ini hanya memperlihatkan kategori, nama, NIK, dan status kelayakan bantuan warga secara singkat
 
 <img width="823" alt="WhatsApp Image 2026-10-07 at 7 43 53 PM" src="https://github.com/user-attachments/assets/6bdbd5b3-769d-45a6-bde2-2c55831438f9" />
 
 Fitur ini memperlihatkan penerapan Polymorphism Method Overloading melalui pemanggilan method tampilkanInfo(true). Berbeda dari menu kedua yang menampilkan detail menyeluruh, menu ini menyajikan rangkuman cepat status kelayakan bantuan warga secara ringkas dan padat. <br>
 
-5. Ubah Data Warga (Update):
+<br>
+
+## 4. Ubah Data Warga (Update):
 Pengguna memasukkan nomor data warga yang ingin diubah. Pembaruan data sistem hanya memperbarui nama, alamat, tanggungan, pendapatan, dan status rumah. Atribut umur, kondisi kesehatan, jenis disabilitas, dan kebutuhan alat bantu tidak ikut diperbarui agar data kategori awal tetap konsisten. Nanti ada pemberitahuan "Data warga berhasil diperbarui!" <br>
 
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 44 51 PM" src="https://github.com/user-attachments/assets/57df4e4b-8acc-4442-aa0c-b9e39654d8d1" /> <br> 
@@ -181,14 +184,21 @@ Pengguna memasukkan nomor data warga yang ingin diubah. Pembaruan data sistem ha
 Tampilan setelah update <br>
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 47 22 PM" src="https://github.com/user-attachments/assets/abd38ffc-1d3b-4c3e-8b92-81dc4b352562" /> <br>
 
+<br>
 
-
-5. Hapus Data Warga (Delete):
+## 5. Hapus Data Warga (Delete):
 Untuk menghapus data warga dari daftar, masukkan nomor data yang mau dihapus. Sesuai revisi, sebelum data dihapus sistem meminta konfirmasi terlebih dahulu (apakah anda yakin ingin menghapus data ini? (y/n)). Jika diketik "y", data berhasil dihapus. <br>
 
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 48 12 PM" src="https://github.com/user-attachments/assets/62c95f30-ea6e-408e-bd49-d954fa44b49d" /> <br>
 
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 48 43 PM" src="https://github.com/user-attachments/assets/49d7b499-5555-41eb-91d7-f4f17a442e47" />
+
+## 6. Keluar: <br>
+
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 50 03 PM" src="https://github.com/user-attachments/assets/7adc7e23-42a1-4883-9436-0de0177f2bec" /> <br> 
+
+menutup program, nanti ada output "Terima kasih telah menggunakan program ini!"
+
 
 
 6. Keluar:
