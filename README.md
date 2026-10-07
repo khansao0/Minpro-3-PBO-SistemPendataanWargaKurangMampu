@@ -114,6 +114,21 @@ Pada Package pendataanwarga.main disini ada :
   * Class Warga dideklarasikan sebagai abstract class, sehingga objek Warga tidak bisa diinisialisasi secara langsung tanpa melalui subclass-nya.
   * Memiliki abstract method getKategori() yang wajib diimplementasikan oleh WargaLansia dan WargaDisabilitas.
 
+  * Abstract class (letak penerapan) <br>
+  <img width="500" alt="WhatsApp Image 2026-10-07 at 8 37 31 PM" src="https://github.com/user-attachments/assets/bb632a40-ca8f-466e-993b-eb712e1d4be6" /> <br>
+  Menandakan bahwa class Warga adalah kelas abstrak (induk utama) yang tidak bisa langsung di-instansiasi/dibuat objeknya secara langsung (new Warga()), melainkan harus melalui kelas turunannya (WargaLansia atau WargaDisabilitas). <br>
+    
+  <br> 
+  * Abstract Method (letak penerapan) <br>
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/bfabb020-ba73-41c9-8d3f-01cc05f019cf" /> <br>
+  Memaksa setiap subclass (WargaLansia dan WargaDisabilitas) untuk wajib meng-override dan memberikan isi implementasinya masing-masing. <br>
+
+  ini di WargaLansia.java <br>
+  <img width="500" alt="WhatsApp Image 2026-10-07 at 8 41 26 PM" src="https://github.com/user-attachments/assets/2cf17873-1da8-428f-8f39-4f5fcc15e241" /> <br>
+
+  ini di WargaDisabilitas.java <br>
+  <img width="500" alt="WhatsApp Image 2026-10-07 at 8 42 57 PM" src="https://github.com/user-attachments/assets/6e0fb3ec-1b1f-41f1-8a0e-09091fe5ed55" /> <br>
+
 * Polymorphism Overriding
   * Meng-override method tampilkanInfo() pada WargaLansia dan WargaDisabilitas untuk mencetak informasi spesifik tiap kategori.
   * Meng-override method cekKelayakanBantuan() dan getCatatanBantuan() dari interface ValidasiSyarat untuk menentukan status kelayakan bantuan secara otomatis berdasarkan kriteria masing-masing warga.
