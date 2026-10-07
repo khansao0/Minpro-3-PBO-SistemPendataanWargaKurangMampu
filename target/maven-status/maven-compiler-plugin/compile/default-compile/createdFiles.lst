@@ -1,0 +1,8 @@
+pendataanwarga\model\KriteriaKemiskinan.class
+pendataanwarga\controller\WargaController.class
+pendataanwarga\model\ValidasiSyarat.class
+pendataanwarga\main\MainApp.class
+pendataanwarga\view\WargaView.class
+pendataanwarga\model\WargaDisabilitas.class
+pendataanwarga\model\Warga.class
+pendataanwarga\model\WargaLansia.class
