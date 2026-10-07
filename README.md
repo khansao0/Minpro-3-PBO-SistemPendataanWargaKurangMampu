@@ -59,7 +59,7 @@ Pada Package pendataanwarga.main disini ada :
 
 ## 3. Penjelasan tiap Class <br>
 
-<img width="222" alt="image" src="https://github.com/user-attachments/assets/1e942e75-cd98-40f0-8e80-e9f6618bd696" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1e942e75-cd98-40f0-8e80-e9f6618bd696" />
 
 
 * Warga
