@@ -215,10 +215,3 @@ Untuk menghapus data warga dari daftar, masukkan nomor data yang mau dihapus. Se
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 50 03 PM" src="https://github.com/user-attachments/assets/7adc7e23-42a1-4883-9436-0de0177f2bec" /> <br> 
 
 menutup program, nanti ada output "Terima kasih telah menggunakan program ini!"
-
-
-
-6. Keluar:
-menutup program, nanti ada output "Terima kasih telah menggunakan program ini!" <br>
-
-<img width="500" alt="WhatsApp Image 2026-10-07 at 7 50 03 PM" src="https://github.com/user-attachments/assets/3ab62263-ea84-445a-b762-8e311baaf27b" />
