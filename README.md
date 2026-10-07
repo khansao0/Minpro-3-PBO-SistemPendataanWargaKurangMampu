@@ -163,7 +163,7 @@ Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal 
 ## 1. Tambah Data Warga (Create):
 Pada menu ini, pengecekan kategori warga (Lansia/Disabilitas) dilakukan di awal sebelum menginput data personal. Jika pilihan kategori salah, pendaftaran langsung dibatalkan. Menu ini juga dilengkapi fungsi validasi try-catch jika pengguna salah memasukkan tipe data (seperti menginput teks pada angka). Setelah berhasil diisi, nanti ada output "Yeyy Data Berhasil ditambahkan!" <br>
 
-<img width="528" alt="WhatsApp Image 2026-10-07 at 8 16 28 PM" src="https://github.com/user-attachments/assets/1e6abe79-47c7-444e-9abc-d7be6aa674d9" />
+<img width="528" alt="WhatsApp Image 2026-10-07 at 8 16 28 PM" src="https://github.com/user-attachments/assets/1e6abe79-47c7-444e-9abc-d7be6aa674d9" /> <br>
 
 
 tampilan saat sudah ditambah <br>
@@ -183,7 +183,7 @@ Menampilkan daftar semua warga yang ada di dalam ArrayList secara lengkap dengan
 ## 3. Tampilkan Ringkasan Warga (Overloading):
 Menampilkan bentuk ringkas dari daftar warga menggunakan konsep method overloading tampilkanInfo(true). Tampilan ini hanya memperlihatkan kategori, nama, NIK, dan status kelayakan bantuan warga secara singkat
 
-<img width="823" alt="WhatsApp Image 2026-10-07 at 7 43 53 PM" src="https://github.com/user-attachments/assets/6bdbd5b3-769d-45a6-bde2-2c55831438f9" />
+<img width="823" alt="WhatsApp Image 2026-10-07 at 7 43 53 PM" src="https://github.com/user-attachments/assets/6bdbd5b3-769d-45a6-bde2-2c55831438f9" /> <br>
 
 Fitur ini memperlihatkan penerapan Polymorphism Method Overloading melalui pemanggilan method tampilkanInfo(true). Berbeda dari menu kedua yang menampilkan detail menyeluruh, menu ini menyajikan rangkuman cepat status kelayakan bantuan warga secara ringkas dan padat. <br>
 
@@ -206,7 +206,9 @@ Untuk menghapus data warga dari daftar, masukkan nomor data yang mau dihapus. Se
 
 <img width="500" alt="WhatsApp Image 2026-10-07 at 7 48 12 PM" src="https://github.com/user-attachments/assets/62c95f30-ea6e-408e-bd49-d954fa44b49d" /> <br>
 
-<img width="500" alt="WhatsApp Image 2026-10-07 at 7 48 43 PM" src="https://github.com/user-attachments/assets/49d7b499-5555-41eb-91d7-f4f17a442e47" />
+<img width="500" alt="WhatsApp Image 2026-10-07 at 7 48 43 PM" src="https://github.com/user-attachments/assets/49d7b499-5555-41eb-91d7-f4f17a442e47" /> <br>
+
+<br>
 
 ## 6. Keluar: <br>
 
