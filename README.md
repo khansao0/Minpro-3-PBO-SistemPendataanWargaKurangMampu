@@ -5,7 +5,7 @@
 ---
 
 ## 1. Deskripsi Singkat Program  
-Pada program Mini Project 3 ini saya melanjutkan dan mengembangkan sistem pendataan warga kurang mampu dari Mini Project 2 berbasis CLI. Di program ini saya merombak struktur program menggunakan arsitektur MVC (Model-View-Controller) untuk memisahkan logika data, tampilan, dan pengontrol program. Di dalam program ini pengguna bisa menambah data warga, menampilkan daftar warga, menampilkan ringkasan data warga, mengubah data, dan menghapus data dari daftar. Program ini berfokus pada pendataan warga kurang mampu (kategori Warga Lansia dan Warga Disabilitas) serta menentukan kelayakan penerimaan bantuan sosial dari pemerintah secara otomatis.
+Pada program ini saya merombak struktur program menggunakan arsitektur MVC untuk memisahkan logika data, tampilan, dan pengontrol program. Di dalam program ini pengguna bisa menambah data warga, menampilkan daftar warga, menampilkan ringkasan data warga, mengubah data, dan menghapus data dari daftar. Program ini berfokus pada pendataan warga kurang mampu (kategori Warga Lansia dan Warga Disabilitas) serta menentukan kelayakan penerimaan bantuan sosial dari pemerintah secara otomatis.
 
 ---  
 
@@ -57,7 +57,10 @@ Pada Package pendataanwarga.main disini ada :
 
 ---
 
-## 3. Penjelasan tiap Class  
+## 3. Penjelasan tiap Class <br>
+
+<img width="222" alt="image" src="https://github.com/user-attachments/assets/1e942e75-cd98-40f0-8e80-e9f6618bd696" />
+
 
 * Warga
   * Penjelasan class: Class ini bertindak sebagai superclass yang bersifat abstract dan mengimplementasikan interface ValidasiSyarat. Class ini menyimpan informasi umum data diri warga.
@@ -124,12 +127,18 @@ Pada Package pendataanwarga.main disini ada :
 
 ## 6. Penjelasan Letak Penerapan Nilai Tambah  
 * Nilai tambah pada project ini adalah penggunaan Interface ValidasiSyarat yang diletakkan pada package pendataanwarga.model.
-* Interface ini mendeklarasikan method cekKelayakanBantuan() dan getCatatanBantuan(). Interface ini diimplementasikan oleh class Warga sehingga seluruh subclass turunan wajib memiliki fungsi untuk memvalidasi kelayakan bantuan sosial secara terstandar.
+* Interface ini mendeklarasikan method cekKelayakanBantuan() dan getCatatanBantuan(). Interface ini diimplementasikan oleh class Warga sehingga seluruh subclass turunan wajib memiliki fungsi untuk memvalidasi kelayakan bantuan sosial secara terstandar. <br>
+
+<img width="727" alt="image" src="https://github.com/user-attachments/assets/24680e56-aff7-4f8f-827d-42028b434eb4" />
+
+implementasi nya ada pada superclass Warga.java <br>
+<img width="645" alt="WhatsApp Image 2026-10-07 at 8 28 13 PM" src="https://github.com/user-attachments/assets/77d7e11b-792f-410c-93b9-805e89a414f5" />
+
 
 ---
 
 ## 7. Penjelasan Alur Program dan Dokumentasi Output  
-Saat program dijalankan, sistem otomatis memanggil method isiDataAwal() di WargaController untuk mengisikan dummy data awal ke ArrayList.  
+Saat program dijalankan, sistem otomatis memanggil method isiDataAwal() di WargaController untuk mengisikan dummy data awal ke ArrayList 
 
 Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal dengan 6 pilihan: <br>  
 
